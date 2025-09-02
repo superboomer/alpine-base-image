@@ -15,7 +15,7 @@ A minimal Alpine-based Docker image built on top of the official Golang Alpine i
 To use this image as a base for your application, reference it in your Dockerfile:
 
 ```dockerfile
-FROM superboomer/alpine-base-image:latest
+FROM ghcr.io/superboomer/alpine-base-image:latest
 
 # Add your application-specific instructions here
 ```
