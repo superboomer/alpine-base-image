@@ -9,7 +9,7 @@ on:
       - "app/**"
       - ".dockerignore"
       - "docker-init.sh"
-      - "Dockerfile-firefox"
+      - "Dockerfile-alpine"
       - "!**.md"
   pull_request:
     paths:
@@ -17,7 +17,7 @@ on:
       - "app/**"
       - ".dockerignore"
       - "docker-init.sh"
-      - "Dockerfile-firefox"
+      - "Dockerfile-alpine"
       - "!**.md"
 
 jobs:
