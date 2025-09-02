@@ -1,0 +1,6 @@
+
+ARG BASE_IMAGE=golang:alpine
+
+FROM --platform=$BUILDPLATFORM ${BASE_IMAGE}
+
+RUN apk add --no-cache --update git tzdata ca-certificates
